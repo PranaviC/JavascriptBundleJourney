@@ -1,0 +1,65 @@
+PAST AND FUTURE OF JAVASCRIPT
+
+lets go on a javacript journey
+
+- only way to make sense out of the current chaotic situation
+from monoliths to completely modular code with imports and exports
+
+Future
+- http/2 es6
+- no more bundling
+- versioned urls for caching
+- run 2 versions of same lib
+- protocol level bundling
+
+lets try to understand
+
+PAST
+- example1 -> Monolithic
+- example2 -> Global Variablesand manual ordering
+- example3 -> Namespace
+- example4 -> Bundling with concatenation --- too many http calls
+- example5 -> Minification
+
+Things started to change in node world. 
+hence now we have 2 environments
+- node (sync)
+- browser (async)
+
+lost of modules in commonjs wanting to be used on browser
+
+- example6 -> CommonJS & Browserify
+- example7 -> CommonJS & Webpack
+- example8 -> AMD & webpack ---- browserify can also do by deamdify
+- example9 -> AMD & RequireJs
+- example10 -> almond and gulp
+
+talkabout es6
+
+- example11 -> es6 and webpack and browserify
+d3 for visualizing data
+- example12 -> rollup and es6 ----------- amazing bundle 
+
+es6 loader specs and lifecycle and hooks
+es6-polyfill
+systemjs has compatible layers for other modules by Guybedford
+
+jspm 
+package manager for systemjs
+- single tree format
+- transitive dependency
+- circular ref
+
+es6 package management
+- one line install
+- one line import
+- package manaher should understand the loader
+
+- example13 -> jspm
+- example14 -> systemjs
+
+===================
+
+about guybedford
+
+a little history -> requirejs and JAM and traceur
